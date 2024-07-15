@@ -168,7 +168,7 @@ console.log("El mayor número del arreglo es: " + numeroMax) */
 
 
 // EJERCICIO 12
-let arreglo = [23,30,15,12,9,8,98,22,46,501]
+/* let arreglo = [23,30,15,12,9,8,98,22,46,501]
 let numeroMin = arreglo[0]
 
 for (let i = 0; i<arreglo.length; i++) {
@@ -177,4 +177,31 @@ for (let i = 0; i<arreglo.length; i++) {
    }
 }
 
-console.log("El menor número del arreglo es: " + numeroMin)
+console.log("El menor número del arreglo es: " + numeroMin) */
+
+
+// EJERCICIO 13
+/* let jugadorUno = prompt("Ingrese el nombre del primer jugador")
+let jugadorDos = prompt("Ingrese el nombre del segundo jugador")
+let manoJugadorUno = 0
+let manoJugadorDos = 0
+
+
+while (manoJugadorUno === manoJugadorDos) {
+    manoJugadorUno= parseInt(prompt(jugadorUno + ", ingrese la opción a elegir: 1(piedra), 2(papel) o 3(tijera)"))
+    manoJugadorDos= parseInt(prompt(jugadorDos + ", ingrese la opción a elegir: 1(piedra), 2(papel) o 3(tijera)"))
+    if ((jugador1 === 1 && jugador2 === 3) || (jugador1 === 2 && jugador2 === 1) || (jugador1 === 3 && jugador2 === 2)) {
+        alert("El primer jugador ganó " + jugadorUno)
+        
+    }else if((jugador2 === 1 && jugador1 === 3) || (jugador2 === 2 && jugador1 === 1) || (jugador2 === 3 && jugador1 === 2)){
+        alert("El segundo jugador ganó "+ jugadorDos)
+        
+    }else if(jugador1 === jugador2){
+        alert("Fue un empate")
+        
+    }else{
+   
+        alert("Opción no válida, vuelva a intentar")
+       
+    }
+} */
