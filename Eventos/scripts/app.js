@@ -22,11 +22,14 @@ let convertirMoneda = () => {
     let pesoADolar = document.getElementById("pesoMX").value
     let dolarAPeso = document.getElementById("dolarUS").value
 
-    if (e.target.id === "pesoMX") {
+    let tasaConversion = tasaDeCambio[pesoADolar][dolarAPeso]
+    let convertido = ()
+
+   /*  if (e.target.id === "pesoMX") {
         document.getElementById("dolarUS").value = (pesoADolar * tasaDeCambio.toFixed(2))
         } else {
             document.getElementById("pesoMX").value = (dolarAPeso * tasaDeCambio.toFixed(2))
-        }
+        } */
 }
 
 
