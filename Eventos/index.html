@@ -13,33 +13,71 @@
 
 <body>
 
-    <header>
-        <h1>Ejercicios sobre eventos</h1>
-    </header>
-
     <main>
 
-        <div class="container-fluid">
+        <h1 class="text-center">Ejercicios sobre eventos</h1>
 
-            <h2>Calculadora de Indice de Masa Corporal (IMC)</h2>
+        <div>
 
-            <form action="">
-                <label for="estatura">ESTATURA (en centímetros):</label>
-                <input id="estatura" type="text">
+            <div class="container">
 
-                <label for="peso">PESO (en kilogramos):</label>
-                <input id="peso" type="text">
+                <h2 class="text-center">Calculadora de Indice de Masa Corporal (IMC)</h2>
 
-                <button id="botonCalculo" type="button">Calcular</button>
-            </form>
+                <form class="form">
+
+                    <div class="field">
+                        <label for="estatura">ESTATURA (en centímetros):</label>
+                        <input id="estatura" type="number" placeholder="173">
+                    </div>
+
+                    <div class="field">
+                        <label for="peso">PESO (en kilogramos):</label>
+                        <input id="peso" type="number" placeholder="62">
+                    </div>
+
+                    <button type="submit" id="botonCalculo" class="btn btn-success">Calcular</button>
+
+                    <div>
+                        <label for="resultado">Resultado</label>
+                        <input type="text" id="resultado" readonly>
+                    </div>
+
+                </form>
+
+            </div>
 
         </div>
+
+
+
+        <div>
+
+            <div class="container">
+                
+                <h2 class="text-center">Conversor de divisas</h2>
+
+                <div>
+                    <input type="number" id="pesoMx">
+                    <label for="pesoMx">Peso mexicano</label>
+                </div>
+
+                <div>
+                    <input type="number" id="dolarUS">
+                    <label for="dolarUS">Dolar estadounidense</label>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
 
 
     </main>
 
 
-    <footer>
+    <footer class="text-center">
         <h4>Created by: Jesus Emmanuel Cime Pech</h4>
     </footer>
 

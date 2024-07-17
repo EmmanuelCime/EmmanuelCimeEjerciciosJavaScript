@@ -1,0 +1,46 @@
+main {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer {
+    height: 20vh;
+}
+
+.form {
+    width: 380px;
+    margin: auto;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+
+#contenedorNuevaNota {
+    display: flex;
+    align-items: center;
+    background-color: red ;
+}
+
+#seccionNuevaNota {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#botonesNuevaNota {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    outline: 2px solid blue;
+}
